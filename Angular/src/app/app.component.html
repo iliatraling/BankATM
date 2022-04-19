@@ -1,0 +1,21 @@
+<div class ="header-bank" >
+  <img class="logo" src="../assets/images/logo.png" alt="ing">
+  <h2 > <nav class="head-nav"> <a class="ref" routerLink="/">Домашняя страница</a> | 
+    <a class="ref" routerLink="/about">Информация о банке</a></nav> 
+  </h2>
+
+</div>
+<div class="content">
+  <button class="header-button position-back-button" (click)="onBack()">Назад</button>
+  <router-outlet ></router-outlet>
+</div>
+<div class="down-info-div">
+  <div class="down-info-div-text">
+    <p class="down-info-div-p">© 2022 PozniakoFF Inc.</p>
+    <p class="down-info-div-p" >Зарегистрировано в реестре коммерческих предприятий Женевы</p> 
+    <p class="down-info-div-p"> под регистрационным номером компании: CH-660-2328005-8. </p>
+    <p class="down-info-div-p"> Все права защищены.</p>
+  </div>
+</div>
+
+

@@ -1,0 +1,13 @@
+<!-- <input class="div-editor-input" name="bankAcc.NAME" [ngClass]="{setName(bankAcc.NAME)}"/> -->
+<div class="div-main-input" >
+    <p class="text">Новый аккаунт</p>
+    <input class="input" [(ngModel)]="bankAcc.ID"  placeholder="Id" ngModel maxlength = "9">
+    <input class="input" [(ngModel)]="bankAcc.NAME"  placeholder="Name" ngModel maxlength="10">
+    <input class="input" [(ngModel)]="bankAcc.LAST_NAME"  placeholder="Last name" ngModel maxlength="10">
+    <button class="input header-button" (click)="onCreate()">Create</button>
+</div>
+<div class="block-alert" *ngIf="isVisability">
+    <div class="alert">
+        Id уже существует.
+      </div>
+</div>

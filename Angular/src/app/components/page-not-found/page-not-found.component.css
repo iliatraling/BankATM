@@ -1,0 +1,21 @@
+.img-sorry {
+    margin-top: 60px;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+}
+
+.div-error {
+    margin-top: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: 700;
+    
+}

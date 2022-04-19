@@ -1,0 +1,15 @@
+<div class="div-main-input">
+    <p class="text main-text">Снять деньги</p>
+    <p class="text">Текущий балланс:</p>
+    <p class="text">{{balance}}</p>
+    <div>
+        <input class="input" [(ngModel)]="withdraw"  placeholder="money" ngModel maxlength="10">
+        <button class="input header-button" (click)="onAll()">All</button>
+    </div>
+    <button class="input header-button" (click)="onWithdraw()">Withdraw</button>
+</div>
+<div class="block-alert" *ngIf="isNumber">
+    <div class="alert">
+        ВВедите сумму, которая не больше чем у вас на баллансе и больше нуля.
+      </div>
+</div>

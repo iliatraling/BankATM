@@ -1,0 +1,71 @@
+.div-input{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+}
+
+
+
+.input-id {
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: white;
+    font-size: 20px;
+}
+.header-button {
+margin-left: 10px;
+border-radius: 5px;
+border: 2px solid black;
+background-color: black;
+color: white;
+font-size: 20px;
+}
+.alert {
+
+    text-align: center;
+    background-color: white;
+    font-size: 20px;
+}
+
+.block-alert {
+    position: relative;
+    top: 100%;
+}
+.keyboard {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border: 3px solid rgb(30, 30, 30);
+    padding: 5px;
+    border-radius: 5px;
+
+    width: 175px;
+}
+.key:hover {
+    background-color: white;
+    box-shadow: inset 0 0 0px 0px rgba(0, 0, 0, 0.921);
+    opacity: 0.9;
+}
+.line::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.key {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(30, 30, 30);
+    padding: 4px;
+    margin: 3px;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 32px;
+}

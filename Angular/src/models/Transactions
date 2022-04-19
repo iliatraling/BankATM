@@ -1,0 +1,4 @@
+export class Transactions {
+    ID: number = 0;                              
+   TRANSACTIONS: number = 0;
+}

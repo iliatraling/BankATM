@@ -1,0 +1,12 @@
+<div class="info-div" *ngIf="isVisability">
+    <p class="text-const">Пользователь на которого зарегестриован счет: </p>
+    <p class="text-var">{{bankAcc.NAME}} {{bankAcc.LAST_NAME}}</p>
+    <p class="text-const">Дата активации счета: </p>
+    <p class="text-var">{{bankAcc.START_BILL}} {{bankAcc.START_T_BILL}}</p>
+    <p class="text-const">Баланс счета: </p>
+    <p class="text-var">{{bankAcc.BALANCE}}</p>
+
+</div>
+<div class="error-div" *ngIf="!isVisability">
+    <p> Нет такого пользователя</p>
+</div>

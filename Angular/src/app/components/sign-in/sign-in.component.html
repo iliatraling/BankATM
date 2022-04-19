@@ -1,0 +1,35 @@
+
+
+<div class="div-input">
+    <input class="input-id" [(ngModel)]="bankAcc.ID"  placeholder="Введите свой id" ngModel maxlength="9">
+    <button class="header-button" (click)="onGet()">Войти</button>
+</div>
+<div class="block-alert" *ngIf="isVisability">
+    <div class="alert">
+        Id не найдено.
+      </div>
+</div>
+
+
+<div class="keyboard">
+    <div class="line">
+        <div class="key" (click)="keyboard(1)">1</div>
+        <div class="key" (click)="keyboard(2)">2</div>
+        <div class="key" (click)="keyboard(3)">3</div>
+    </div>
+    <div class="line">
+        <div class="key" (click)="keyboard(4)">4</div>
+        <div class="key" (click)="keyboard(5)">5</div>
+        <div class="key" (click)="keyboard(6)">6</div>
+    </div>
+    <div class="line">
+        <div class="key" (click)="keyboard(7)">7</div>
+        <div class="key" (click)="keyboard(8)">8</div>
+        <div class="key" (click)="keyboard(9)">9</div>
+    </div>
+    <div class="line">
+        <div class="key" (click)="keyboard(10)"><</div>
+        <div class="key" (click)="keyboard(11)">0</div>
+        <div class="key" (click)="keyboard(12)">c</div>
+    </div>
+</div>

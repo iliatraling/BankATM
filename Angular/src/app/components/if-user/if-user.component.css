@@ -1,0 +1,57 @@
+
+.button-div{
+    /*display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    padding: 0 30vw;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
+
+ 
+  .button-button{
+      margin-top: auto;
+      margin-bottom: auto;
+      font-weight: 900;
+      font-size: 20px;
+      width: 300px;
+      height: 300px;
+      
+      background-size: 300px;
+      border: 4px solid black;
+      border-radius: 10px;
+      background-color: white;
+      background-repeat: no-repeat;
+
+  }
+  .button-img-you {
+    background-image: url("../../../assets/images/you.png");
+  }
+  .button-img-work {
+    background-image: url("../../../assets/images/work.png");
+  }
+  .button-img-give {
+    background-image: url("../../../assets/images/give.png");
+  }
+  .button-img-money {
+    background-image: url("../../../assets/images/money.png");
+  }
+  .button-button:hover{ 
+      box-shadow: inset 0 0 0px 0px rgba(0, 0, 0, 0.921);
+    opacity: 0.7;
+
+
+
+    background-color: black;
+  }
+  .text-botton {
+      margin-top: 190px;
+      background-color: transparent;
+  }

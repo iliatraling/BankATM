@@ -1,0 +1,17 @@
+<div class="main-div" *ngIf="isVisability">
+    <p>Внимание!!! Если вы нажмете на кнопу, удаление будет безозвратно.
+        Инофрмация о транзакциях также будет удалена.
+        Вы действительно хотите продолжить?
+    </p>
+<div *ngIf="isBalance">
+    <p> У вас осталось: {{bankAcc.BALANCE}}. </p>
+    <p>Не хотите снять?</p>
+</div>
+<div class="button-m">
+    <button  class="header-button " *ngIf="isBalance" (click)="onWithdraw()">Снять</button>
+    <button class="header-button" (click)="onDelete()">Удалить</button>
+</div>
+</div>
+<div class="main-div" *ngIf="!isVisability">
+    У мошенник!!!!
+</div>

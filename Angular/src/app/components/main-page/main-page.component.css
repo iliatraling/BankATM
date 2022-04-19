@@ -1,0 +1,115 @@
+/* .header-div-button {
+    display:flex;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.img-button {
+
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+
+}
+.img-button:hover{
+    opacity: 0.5;
+}
+.text-button{
+    background-color: #fff;
+    width: 200px;
+   
+}
+.text-button:hover { 
+    background-color: #3e3737;
+
+  text-shadow: 0 1px 0 #3e3737;
+    color: #fff;
+  }
+.header-button {
+
+    width: 258px;
+    height: 280px;
+    background-color: #fff;
+
+    border-radius: 50px;
+    border: 4px solid black;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.2s;
+  } 
+  
+  .header-button:hover { 
+      background-color: #3e3737;
+
+    text-shadow: 0 1px 0 #3e3737;
+      color: #fff;
+    }
+  .header-button:active {
+    background: rgb(245 110 86);
+    box-shadow: 0 3px rgb(245 110 86) inset;
+  }
+  .icon-button {
+      background-image: url("../assets/images/good.png");
+      padding-left: 32px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      background-repeat: no-repeat;
+
+  } */
+  .button-div{
+
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+    padding: 0 20vw;
+  
+      
+    /*margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);*/
+  }
+  
+  .button-button{
+     margin-top: 100px auto;
+
+      font-weight: 900;
+      font-size: 20px;
+      width: 300px;
+      height: 300px;
+      
+      background-size: 300px;
+      border: 4px solid black;
+      border-radius: 10px;
+      background-color: white;
+
+  }
+  .button-img-happy {
+    background-image: url("../../../assets/images/happy.png");
+  }
+  .button-img-hi {
+    background-image: url("../../../assets/images/hi.png");
+  }
+  .button-button:hover{ 
+      box-shadow: inset 0 0 0px 0px rgba(0, 0, 0, 0.921);
+    opacity: 0.7;
+
+
+
+    background-color: black;
+  }
+  .text-botton {
+      margin-top: 140px;
+      background-color: transparent;
+  }

@@ -1,0 +1,14 @@
+<div class="div-main-input">
+    <p class="text main-text">Положить на счет</p>
+    <p class="text">Текущий балланс:</p>
+    <p class="text">{{balance}}</p>
+    <div>
+        <input class="input" [(ngModel)]="put"  placeholder="money" ngModel maxlength="10">
+    </div>
+    <button class="input header-button" (click)="onPut()">Put</button>
+</div>
+<div class="block-alert" *ngIf="isVisability">
+    <div class="alert">
+        ВВедите положительное число.
+      </div>
+</div>
